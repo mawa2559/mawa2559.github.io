@@ -1,0 +1,175 @@
+/* gloabal style */
+body{
+	background-color: #01a1b1;
+	color: black;
+	min-width: 400px;
+	font-family: 'Roboto', sens-serif;
+}
+body img {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* banner style */
+.banner {
+	background: #413d3e;
+	Padding: 1em;
+	text-align: left;
+	margin-bottom: 0;
+}
+.banner p {
+	color: #fff;
+	font-size: 16px;
+	padding-left: 3px;
+	margin: 0 0 0 5%;
+}
+/* Image Styles */
+.showcase {
+	width: 80%;
+}
+.showcase, .gallery1, .gallery2, .gallery3 {
+	border-radius: 15%;
+	display: block;
+	Margin: 2em auto 4em auto;
+	max-width: 640px;
+	height: auto;
+}
+
+/* header style */
+header {
+	padding: 0 20px 0px 20px;
+	color: white;
+	text-align: center;
+}
+header h1 {
+	margin-top: 0;
+}
+
+/* nav bar style */
+nav {
+	text-align: center;
+	margin-bottom: 1em;
+}
+nav ul {
+	list-style-type: none;
+	margin: auto;
+	overflow: hidden;
+	padding: 14px;
+}
+nav ul li {
+	vertical-align: center;
+	display: inline-block;
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	padding: 14px 18px;
+}
+/*article boxes*/
+article {
+	background: #fff;
+	padding: 20px;
+	margin: 0 10% 1% 10%;
+}
+
+/* about me/projects/experience section style */
+.background,.strengths, .skills, .projects, .resume, #projects h3, #resume h3 {
+	background: #fff;
+	padding: 20px;
+	margin: 0 10% 1% 10%;
+	text-align: center;
+}
+article p {
+	margin-bottom: 2em;
+}
+article a:link {
+	color: black;
+}
+article a:visited {
+        color: black;
+}
+
+/* contact style */
+.contact {
+	background-color: #dfe8f1;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+	width: 74%;
+}
+.contact input {
+	wdith: 20%;
+	height: 2em;
+}
+
+/* footer style */
+footer {
+	background: #262624;
+	padding: 20px;
+	color: white;
+	text-align: center;
+	height: 2em;
+	margin: 1em auto 0 auto;
+}
+footer p {
+	font-size: 14px;
+	margin-bottom: 1em;
+}
+
+/* media queries */
+@media screen and (max-width: 700px) {
+	nav ul li a {
+        color: #fff;
+	}
+	nav ul li {
+		display: block;
+		width: 8em;
+		border: 2px solid #000;
+		background: #0b0d08; 
+		margin: 0 auto .5em auto;
+		padding: 1em;
+	}
+	
+	.gallery1, .gallery2, .gallery3 {
+		display: none;
+	}
+	article {
+	margin: 1% 1% 1% auto;
+	padding: 0;
+	}
+	div .contact{
+        padding: 6px 30px;
+        margin: 6px 6px;
+        box-sizing: border-box;
+	width: 100%;
+	}
+	div .contact input {
+	background-color: #413d3e;
+	padding: 15px;
+	width: 50%;
+	}
+	.background, .strengths, .skills, .projects, .resume, #projects, #resume {
+	margin: 0 auto 1em auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+	}
+	#aboutMe, #resume, #projects {
+	background: #01a1b1;
+	}
+}
+@media all and (min-width: 700px) {
+	/*body {
+		max-width: device-width;
+	}*/
+	nav ul li a:hover {
+	background-color: #0b0d08;
+	color: #fff;
+	}
+	article a:hover {
+	color: #0b0d08;
+	}
+	.background:hover, .strengths:hover, .skills:hover, .projects:hover, .resume:hover, #projects h3:hover, #resume h3:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	h3 {
+	padding: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+}
