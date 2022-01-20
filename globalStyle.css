@@ -81,7 +81,7 @@ article {
 	margin: 0 10% 1% 10%;
 	text-align: center;
 }
-.background p{
+.background p, .projects p{
 	text-align: left;
 }
 article p {
@@ -154,7 +154,7 @@ footer p {
 	width: 50%;
 	}
 	.background, .strengths, .skills, .projects, .resume, #projects, #resume {
-	margin: 0 1% 1em auto;
+	margin: 0 auto auto auto;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 	}
 	#aboutMe, #resume, #projects {
