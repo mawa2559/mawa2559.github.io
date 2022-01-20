@@ -155,9 +155,6 @@ footer p {
 	}
 }
 @media all and (min-width: 700px) {
-	/*body {
-		max-width: device-width;
-	}*/
 	nav ul li a:hover {
 	background-color: #0b0d08;
 	color: #fff;
