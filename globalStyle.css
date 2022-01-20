@@ -147,7 +147,7 @@ footer p {
 	width: 50%;
 	}
 	.background, .strengths, .skills, .projects, .resume, #projects, #resume {
-	margin: 0 auto 1em auto;
+	margin: 0 1% 1em auto;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 	}
 	#aboutMe, #resume, #projects {
@@ -155,9 +155,6 @@ footer p {
 	}
 }
 @media all and (min-width: 700px) {
-	/body {
-		width: 100%;
-	}
 	nav ul li a:hover {
 	background-color: #0b0d08;
 	color: #fff;
