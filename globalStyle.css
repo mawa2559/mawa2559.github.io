@@ -154,7 +154,7 @@ footer p {
 	}
 	.background, .strengths, .skills, .projects, .resume, #projects, #resume {
 	margin: 0 auto 1em auto;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)*/
 	}
 	#aboutMe, #resume, #projects {
 	background: #01a1b1;
