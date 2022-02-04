@@ -73,7 +73,7 @@ article {
 }
 
 /* about me/projects/experience section style */
-.background,.strengths, .skills, .projects, .resume, #projects h3, #resume h3 {
+.background,.strengths, .skills, .projects, .resume {
 	background: #fff;
 	padding: 20px;
 	margin: 0 10% 1% 10%;
